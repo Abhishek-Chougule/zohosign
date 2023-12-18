@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include zohosign *.css
+recursive-include zohosign *.csv
+recursive-include zohosign *.html
+recursive-include zohosign *.ico
+recursive-include zohosign *.js
+recursive-include zohosign *.json
+recursive-include zohosign *.md
+recursive-include zohosign *.png
+recursive-include zohosign *.py
+recursive-include zohosign *.svg
+recursive-include zohosign *.txt
+recursive-exclude zohosign *.pyc

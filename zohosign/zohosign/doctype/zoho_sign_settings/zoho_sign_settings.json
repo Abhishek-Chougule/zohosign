@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-12-13 20:47:17.415768",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "client_id",
+  "refresh_token",
+  "column_break_xor0z",
+  "client_secret",
+  "site_url",
+  "access_token"
+ ],
+ "fields": [
+  {
+   "fieldname": "client_id",
+   "fieldtype": "Data",
+   "label": "client_id"
+  },
+  {
+   "fieldname": "column_break_xor0z",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "refresh_token",
+   "fieldtype": "Data",
+   "label": "refresh_token"
+  },
+  {
+   "fieldname": "client_secret",
+   "fieldtype": "Data",
+   "label": "client_secret"
+  },
+  {
+   "fieldname": "site_url",
+   "fieldtype": "Data",
+   "label": "site_url",
+   "read_only": 1
+  },
+  {
+   "fieldname": "access_token",
+   "fieldtype": "Data",
+   "label": "access_token"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-12-14 22:18:17.452531",
+ "modified_by": "Administrator",
+ "module": "Zohosign",
+ "name": "Zoho Sign Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
